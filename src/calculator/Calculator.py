@@ -39,6 +39,6 @@ class Calculator:
 
         """
         if self.items_total == 0:
-            return "N/A"
+            return None
         percentual = (self.completed_items / self.items_total) * 100
         return round(percentual, 2)
